@@ -1,5 +1,5 @@
 # 💫 About Me:
-⭐️ I'm currently working on StudyLog, Co. Ltd.<br>✅ I'm a Google Product Expert of Gmail & YouTube.<br>🎨 DDSHS 9th & KAIST CCE 11th<br>📢 DSHBS 9th President<br>🎥 Science Enthusiast
+⭐️ I'm currently working as CEO on StudyLog, Co. Ltd.<br>✅ I'm a Google Product Expert of Gmail & YouTube.<br>🎨 DDSHS 9th & KAIST CCE 11th<br>📢 DSHBS 9th President<br>🎥 Science Enthusiast
 
 
 ## 🌐 Socials:
