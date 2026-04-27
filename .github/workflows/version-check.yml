@@ -1,0 +1,38 @@
+name: 'Check Version Bump'
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+
+      - name: Get PR version
+        id: pr_version
+        run: echo "version=$(jq -r .version package.json)" >> $GITHUB_OUTPUT
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-branch
+
+      - name: Get main version
+        id: main_version
+        run: echo "version=$(jq -r .version main-branch/package.json)" >> $GITHUB_OUTPUT
+
+      - name: Compare versions
+        run: |
+          PR_VER="${{ steps.pr_version.outputs.version }}"
+          MAIN_VER="${{ steps.main_version.outputs.version }}"
+          echo "PR Version: $PR_VER"
+          echo "Main Version: $MAIN_VER"
+          if [ "$PR_VER" == "$MAIN_VER" ]; then
+            echo "Error: package.json version must be updated!"
+            exit 1
+          fi

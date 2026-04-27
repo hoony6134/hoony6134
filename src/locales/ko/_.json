@@ -1,0 +1,35 @@
+{
+  "landing": {
+    "demo": {
+      "button": "테마 및 언어 전환",
+      "darkMode": "다크 모드",
+      "i18n": "i18n ↔ dayjs 로케일 동기화",
+      "lightMode": "라이트 모드",
+      "title": "인터랙티브 데모"
+    },
+    "hero": {
+      "description": "프로젝트 한 줄 설명을 여기에 작성하세요.",
+      "start": "시작하기",
+      "title": "프로젝트 이름"
+    },
+    "stack": {
+      "i18n": {
+        "description": "languageChanged 이벤트로 i18n 로케일과 dayjs 로케일 자동 동기화",
+        "title": "i18next + dayjs"
+      },
+      "mvvm": {
+        "description": "feature 기반 폴더 구조 + ESLint로 레이어 의존성 강제",
+        "title": "MVVM 아키텍처"
+      },
+      "tailwind": {
+        "description": "data-theme 어트리뷰트로 다크 / 라이트 모드 전환",
+        "title": "Tailwind CSS v4"
+      },
+      "tanstack": {
+        "description": "Router (파일 기반 라우팅) + Query (서버 상태) + Devtools",
+        "title": "TanStack Suite"
+      },
+      "title": "포함된 설정"
+    }
+  }
+}

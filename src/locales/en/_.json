@@ -1,0 +1,35 @@
+{
+  "landing": {
+    "demo": {
+      "button": "Theme & Locale",
+      "darkMode": "Dark Mode",
+      "i18n": "i18n ↔ dayjs Locale Sync",
+      "lightMode": "Light Mode",
+      "title": "Interactive Demo"
+    },
+    "hero": {
+      "description": "Write a one-line description of your project here.",
+      "start": "Get Started",
+      "title": "Project Name"
+    },
+    "stack": {
+      "i18n": {
+        "description": "Automatically syncs i18n locale with dayjs locale via the languageChanged event",
+        "title": "i18next + dayjs"
+      },
+      "mvvm": {
+        "description": "Feature-based folder structure with ESLint-enforced layer dependencies",
+        "title": "MVVM Architecture"
+      },
+      "tailwind": {
+        "description": "Dark / light mode switching via the data-theme attribute",
+        "title": "Tailwind CSS v4"
+      },
+      "tanstack": {
+        "description": "Router (file-based routing) + Query (server state) + Devtools",
+        "title": "TanStack Suite"
+      },
+      "title": "What's Included"
+    }
+  }
+}
